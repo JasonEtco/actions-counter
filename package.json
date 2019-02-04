@@ -1,0 +1,34 @@
+{
+  "name": "actions-counter",
+  "private": true,
+  "version": "0.0.1",
+  "description": "A counter service for GitHub Actions",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage && standard"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JasonEtco/actions-counter.git"
+  },
+  "keywords": [],
+  "author": "Jason Etcovitch <jasonetco@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JasonEtco/actions-counter/issues"
+  },
+  "homepage": "https://github.com/JasonEtco/actions-counter#readme",
+  "dependencies": {
+    "badgen": "^2.7.0",
+    "knex": "^0.16.3"
+  },
+  "devDependencies": {
+    "jest": "^23.5.0",
+    "standard": "^11.0.1"
+  },
+  "standard": {
+    "env": [
+      "jest"
+    ]
+  }
+}
